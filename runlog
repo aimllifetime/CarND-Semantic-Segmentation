@@ -1,0 +1,84 @@
+1.2.1
+TensorFlow Version: 1.2.1
+2018-03-01 06:15:53.282536: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-03-01 06:15:53.282898: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties:
+name: Tesla M60
+major: 5 minor: 2 memoryClockRate (GHz) 1.1775
+pciBusID 0000:00:1e.0
+Total memory: 7.43GiB
+Free memory: 7.36GiB
+2018-03-01 06:15:53.282926: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0
+2018-03-01 06:15:53.282938: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y
+2018-03-01 06:15:53.282963: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+2018-03-01 06:15:53.369492: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+Default GPU Device: /gpu:0
+2018-03-01 06:15:53.370546: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+Tests Passed
+[<tf.Variable 'conv2d/kernel:0' shape=(1, 1, 4096, 2) dtype=float32_ref>, <tf.Variable 'conv2d/bias:0' shape=(2,) dtype=float32_ref>, <tf.Variable 'conv2d_transpose/kernel:0' shape=(4, 4, 2, 2) dtype=float32_ref>, <tf.Variable 'conv2d_transpose/bias:0' shape=(2,) dtype=float32_ref>, <tf.Variable 'conv2d_1/kernel:0' shape=(1, 1, 512, 2) dtype=float32_ref>, <tf.Variable 'conv2d_1/bias:0' shape=(2,) dtype=float32_ref>, <tf.Variable 'conv2d_transpose_1/kernel:0' shape=(4, 4, 2, 2) dtype=float32_ref>, <tf.Variable 'conv2d_transpose_1/bias:0' shape=(2,) dtype=float32_ref>, <tf.Variable 'conv2d_2/kernel:0' shape=(1, 1, 256, 2) dtype=float32_ref>, <tf.Variable 'conv2d_2/bias:0' shape=(2,) dtype=float32_ref>, <tf.Variable 'conv2d_transpose_2/kernel:0' shape=(16, 16, 2, 2) dtype=float32_ref>, <tf.Variable 'conv2d_transpose_2/bias:0' shape=(2,) dtype=float32_ref>]
+Tests Passed
+2018-03-01 06:16:00.808884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+2018-03-01 06:16:00.820964: I tensorflow/compiler/xla/service/platform_util.cc:58] platform CUDA present with 1 visible devices
+2018-03-01 06:16:00.820988: I tensorflow/compiler/xla/service/platform_util.cc:58] platform Host present with 16 visible devices
+2018-03-01 06:16:00.825102: I tensorflow/compiler/xla/service/service.cc:198] XLA service 0x3ac25c0 executing computations on platform Host. Devices:
+2018-03-01 06:16:00.825123: I tensorflow/compiler/xla/service/service.cc:206]   StreamExecutor device (0): <undefined>, <undefined>
+2018-03-01 06:16:00.825304: I tensorflow/compiler/xla/service/platform_util.cc:58] platform CUDA present with 1 visible devices
+2018-03-01 06:16:00.825322: I tensorflow/compiler/xla/service/platform_util.cc:58] platform Host present with 16 visible devices
+2018-03-01 06:16:00.827927: I tensorflow/compiler/xla/service/service.cc:198] XLA service 0x3b4d070 executing computations on platform CUDA. Devices:
+2018-03-01 06:16:00.827945: I tensorflow/compiler/xla/service/service.cc:206]   StreamExecutor device (0): Tesla M60, Compute Capability 5.2
+Tests Passed
+2018-03-01 06:16:01.025794: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+Tests Passed
+Tests Passed
+2018-03-01 06:16:01.033935: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0)
+[<tf.Variable 'conv1_1/filter:0' shape=(3, 3, 3, 64) dtype=float32_ref>, <tf.Variable 'conv1_1/biases:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'conv1_2/filter:0' shape=(3, 3, 64, 64) dtype=float32_ref>, <tf.Variable 'conv1_2/biases:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'conv2_1/filter:0' shape=(3, 3, 64, 128) dtype=float32_ref>, <tf.Variable 'conv2_1/biases:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'conv2_2/filter:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'conv2_2/biases:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'conv3_1/filter:0' shape=(3, 3, 128, 256) dtype=float32_ref>, <tf.Variable 'conv3_1/biases:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'conv3_2/filter:0' shape=(3, 3, 256, 256) dtype=float32_ref>, <tf.Variable 'conv3_2/biases:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'conv3_3/filter:0' shape=(3, 3, 256, 256) dtype=float32_ref>, <tf.Variable 'conv3_3/biases:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'conv4_1/filter:0' shape=(3, 3, 256, 512) dtype=float32_ref>, <tf.Variable 'conv4_1/biases:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'conv4_2/filter:0' shape=(3, 3, 512, 512) dtype=float32_ref>, <tf.Variable 'conv4_2/biases:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'conv4_3/filter:0' shape=(3, 3, 512, 512) dtype=float32_ref>, <tf.Variable 'conv4_3/biases:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'conv5_1/filter:0' shape=(3, 3, 512, 512) dtype=float32_ref>, <tf.Variable 'conv5_1/biases:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'conv5_2/filter:0' shape=(3, 3, 512, 512) dtype=float32_ref>, <tf.Variable 'conv5_2/biases:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'conv5_3/filter:0' shape=(3, 3, 512, 512) dtype=float32_ref>, <tf.Variable 'conv5_3/biases:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'fc6/weights:0' shape=(7, 7, 512, 4096) dtype=float32_ref>, <tf.Variable 'fc6/biases:0' shape=(4096,) dtype=float32_ref>, <tf.Variable 'fc7/weights:0' shape=(1, 1, 4096, 4096) dtype=float32_ref>, <tf.Variable 'fc7/biases:0' shape=(4096,) dtype=float32_ref>, <tf.Variable 'conv2d/kernel:0' shape=(1, 1, 4096, 2) dtype=float32_ref>, <tf.Variable 'conv2d/bias:0' shape=(2,) dtype=float32_ref>, <tf.Variable 'conv2d_transpose/kernel:0' shape=(4, 4, 2, 2) dtype=float32_ref>, <tf.Variable 'conv2d_transpose/bias:0' shape=(2,) dtype=float32_ref>, <tf.Variable 'conv2d_1/kernel:0' shape=(1, 1, 512, 2) dtype=float32_ref>, <tf.Variable 'conv2d_1/bias:0' shape=(2,) dtype=float32_ref>, <tf.Variable 'conv2d_transpose_1/kernel:0' shape=(4, 4, 2, 2) dtype=float32_ref>, <tf.Variable 'conv2d_transpose_1/bias:0' shape=(2,) dtype=float32_ref>, <tf.Variable 'conv2d_2/kernel:0' shape=(1, 1, 256, 2) dtype=float32_ref>, <tf.Variable 'conv2d_2/bias:0' shape=(2,) dtype=float32_ref>, <tf.Variable 'conv2d_transpose_2/kernel:0' shape=(16, 16, 2, 2) dtype=float32_ref>, <tf.Variable 'conv2d_transpose_2/bias:0' shape=(2,) dtype=float32_ref>]
+called trainn_nn
+epoch 0 training cost = 0.504
+epoch 1 training cost = 0.372
+epoch 2 training cost = 0.337
+epoch 3 training cost = 0.167
+epoch 4 training cost = 0.168
+epoch 5 training cost = 0.128
+epoch 6 training cost = 0.164
+epoch 7 training cost = 0.157
+epoch 8 training cost = 0.110
+epoch 9 training cost = 0.136
+epoch 10 training cost = 0.124
+epoch 11 training cost = 0.141
+epoch 12 training cost = 0.125
+epoch 13 training cost = 0.078
+epoch 14 training cost = 0.108
+epoch 15 training cost = 0.093
+epoch 16 training cost = 0.115
+epoch 17 training cost = 0.111
+epoch 18 training cost = 0.108
+epoch 19 training cost = 0.086
+epoch 20 training cost = 0.146
+epoch 21 training cost = 0.100
+epoch 22 training cost = 0.099
+epoch 23 training cost = 0.076
+epoch 24 training cost = 0.108
+epoch 25 training cost = 0.090
+epoch 26 training cost = 0.073
+epoch 27 training cost = 0.071
+epoch 28 training cost = 0.058
+epoch 29 training cost = 0.083
+epoch 30 training cost = 0.053
+epoch 31 training cost = 0.071
+epoch 32 training cost = 0.036
+epoch 33 training cost = 0.063
+epoch 34 training cost = 0.046
+epoch 35 training cost = 0.054
+epoch 36 training cost = 0.050
+epoch 37 training cost = 0.033
+epoch 38 training cost = 0.028
+epoch 39 training cost = 0.033
+epoch 40 training cost = 0.042
+epoch 41 training cost = 0.037
+epoch 42 training cost = 0.041
+epoch 43 training cost = 0.037
+epoch 44 training cost = 0.040
+epoch 45 training cost = 0.034
+epoch 46 training cost = 0.023
+epoch 47 training cost = 0.028
+epoch 48 training cost = 0.023
+epoch 49 training cost = 0.032
