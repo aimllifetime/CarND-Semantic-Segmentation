@@ -23,6 +23,9 @@ drop prob = 0.7
   use the cross entropy for logits and predict value. use the AdamOptimizer to optimize the loss.
 
 # some sample images after clasification:
+
+result image is saved in dir: [runs/1519288829.2802627.1](./runs/1519288829.2802627.1)
+
 ![image_1](./runs/1519288829.2802627.1/um_000000.png)
 
 ![image_2](./runs/1519288829.2802627.1/um_000010.png)
