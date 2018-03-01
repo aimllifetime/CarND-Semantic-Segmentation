@@ -155,8 +155,8 @@ tests.test_train_nn(train_nn)
 
 def run():
     num_classes = 2
-    epochs = 2
-    batch_size = 1
+    epochs = 50
+    batch_size = 10
     learning_rate = 0.002
     image_shape = (160, 576)
     data_dir = './data'
