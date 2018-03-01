@@ -21,7 +21,11 @@ drop prob = 0.7
 
 # training loss
   use the cross entropy for logits and predict value. use the AdamOptimizer to optimize the loss.
-
+  training loss is decreasing from 0.504 to 0.032 after 50 epoch training.
+  
+  the runlog is [runlog](./runlog)
+  
+  
 # some sample images after clasification:
 
 result image is saved in dir: [runs/1519288829.2802627.1](./runs/1519288829.2802627.1)
